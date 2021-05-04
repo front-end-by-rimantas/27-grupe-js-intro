@@ -29,6 +29,13 @@ console.log(fullName);
 const introduction = 'Hi, my name is ' + vardas + '!';
 console.log(introduction);
 
+const word1 = 'Labas';
+const word2 = 'rytas';
+const word3 = 'tau';
+
+const sayHi = word1 + ' ' + word2 + ' ' + word3;
+console.log(sayHi);
+
 console.log('--------------------');
 
 const marks = [10, 2, 8, 4];
@@ -39,3 +46,15 @@ console.log(marksSum);
 
 const example = marks[0 + 1 + 2];   // marks[3] -> 4
 console.log(example);
+
+const alt = [4, -2, 5, 8, 3, 6];
+
+const altSum = alt[0] - alt[1] + alt[2] - alt[3] + alt[4] - alt[5];
+console.log(altSum);
+
+console.log('--------------------');
+
+const dictionary = ['pirmas', 'zodis', 'bus', 'ketvirtas'];
+
+const reverseString = dictionary[3] + ', ' + dictionary[2] + ', ' + dictionary[1] + ', ' + dictionary[0];
+console.log(reverseString);

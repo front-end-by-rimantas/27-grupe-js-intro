@@ -27,7 +27,14 @@ function kurisDidesnis(a, b) {
     return a > b ? 'pirmas' : 'antras';
 }
 
-console.log(kurisDidesnis(7, 4));
-console.log(kurisDidesnis(7, -4));
-console.log(kurisDidesnis(-7, -4));
-console.log(kurisDidesnis(-7, 4));
+const kd1 = kurisDidesnis(7, 4);
+console.log(kd1);
+
+const kd2 = kurisDidesnis(7, -4);
+console.log(kd2);
+
+const kd3 = kurisDidesnis(-7, -4);
+console.log(kd3);
+
+const kd4 = kurisDidesnis(-7, 4);
+console.log(kd4);
